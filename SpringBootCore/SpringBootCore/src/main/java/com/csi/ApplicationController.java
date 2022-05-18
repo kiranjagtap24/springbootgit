@@ -16,5 +16,9 @@ public class ApplicationController {
     public String services(){
         return "Software Development";
     }
+    @GetMapping("/address")
+    public String addressnew(){
+        return "Inspiria Mall|Pune";
+    }
 }
 
